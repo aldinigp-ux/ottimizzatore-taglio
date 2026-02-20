@@ -103,7 +103,7 @@ def calcola_e_disegna_web(lastra_w, lastra_h, lista_pezzi, sp_lama=4):
     return fig, info_testo, mancanti_testo
 
 # --- INTERFACCIA STREAMLIT ---
-st.title("✂️ Ottimizzatore Taglio v1.0")
+st.title("✂️ Ottimizzatore Taglio v1.0 - By Paolo Aldini")
 
 with st.sidebar:
     st.header("⚙️ Parametri Lastra")
@@ -147,4 +147,5 @@ if st.button("🚀 CALCOLA OTTIMIZZAZIONE", use_container_width=True):
             file_name="Schema_Taglio_Web.pdf",
             mime="application/pdf",
             use_container_width=True
+
         )
